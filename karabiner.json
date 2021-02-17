@@ -252,6 +252,45 @@
             ]
           },
           {
+            "description": "Ctrl+D => Cmd+D (Bookmark) (Only in browsers)",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "bundle_identifiers": [
+                      "^org\\.mozilla\\.firefox$",
+                      "^org\\.mozilla\\.nightly$",
+                      "^com\\.microsoft\\.Edge",
+                      "^com\\.google\\.Chrome$",
+                      "^com\\.apple\\.Safari$"
+                    ],
+                    "type": "frontmost_application_if"
+                  }
+                ],
+                "from": {
+                  "key_code": "d",
+                  "modifiers": {
+                    "mandatory": [
+                      "control"
+                    ],
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "d",
+                    "modifiers": [
+                      "left_command"
+                    ]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Cmd+Left => Cmd+[ (Back) (Only in browsers)",
             "manipulators": [
               {
