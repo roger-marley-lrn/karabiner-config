@@ -1806,7 +1806,7 @@
             ]
           },
           {
-            "description": "Cmd+L => Logout (CGSession -suspend)",
+            "description": "Cmd+L => Cmd+Ctrl+Q (Lock screen)",
             "manipulators": [
               {
                 "from": {
@@ -1822,7 +1822,11 @@
                 },
                 "to": [
                   {
-                    "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+                    "key_code": "q",
+                    "modifiers": [
+                      "command",
+                      "control"
+                    ]
                   }
                 ],
                 "type": "basic"
