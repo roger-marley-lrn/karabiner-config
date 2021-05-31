@@ -214,6 +214,7 @@
                     "bundle_identifiers": [
                       "^com\\.microsoft\\.rdc$",
                       "^com\\.microsoft\\.rdc\\.",
+                      "^com\\.microsoft\\.VSCode$",
                       "^net\\.sf\\.cord$",
                       "^com\\.thinomenon\\.RemoteDesktopConnection$",
                       "^com\\.itap-mobile\\.qmote$",
@@ -246,7 +247,8 @@
                       "^com\\.google\\.Chrome$",
                       "^com\\.apple\\.Safari$",
                       "^cz\\.or\\.repo\\.git-gui$",
-                      "^com\\.jetbrains\\."
+                      "^com\\.jetbrains\\.",
+                      "^com\\.tinyspeck\\.slackmacgap$"
                     ]
                   }
                 ]
@@ -365,6 +367,7 @@
                     "bundle_identifiers": [
                       "^com\\.microsoft\\.rdc$",
                       "^com\\.microsoft\\.rdc\\.",
+                      "^com\\.microsoft\\.VSCode$",
                       "^net\\.sf\\.cord$",
                       "^com\\.thinomenon\\.RemoteDesktopConnection$",
                       "^com\\.itap-mobile\\.qmote$",
@@ -397,7 +400,8 @@
                       "^com\\.google\\.Chrome$",
                       "^com\\.apple\\.Safari$",
                       "^cz\\.or\\.repo\\.git-gui$",
-                      "^com\\.jetbrains\\."
+                      "^com\\.jetbrains\\.",
+                      "^com\\.tinyspeck\\.slackmacgap$"
                     ]
                   }
                 ]
@@ -686,7 +690,8 @@
                       "^co\\.zeit\\.hyperterm$",
                       "^co\\.zeit\\.hyper$",
                       "^io\\.alacritty$",
-                      "^net\\.kovidgoyal\\.kitty$"
+                      "^net\\.kovidgoyal\\.kitty$",
+                      "^com\\.jetbrains\\.PhpStorm"
                     ],
                     "type": "frontmost_application_unless"
                   }
@@ -745,7 +750,8 @@
                       "^co\\.zeit\\.hyperterm$",
                       "^co\\.zeit\\.hyper$",
                       "^io\\.alacritty$",
-                      "^net\\.kovidgoyal\\.kitty$"
+                      "^net\\.kovidgoyal\\.kitty$",
+                      "^com\\.jetbrains\\.PhpStorm"
                     ],
                     "type": "frontmost_application_unless"
                   }
@@ -1406,7 +1412,8 @@
                       "^com\\.googlecode\\.iterm2$",
                       "^co\\.zeit\\.hyper$",
                       "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                      "^com\\.microsoft\\.rdc\\.macos$"
+                      "^com\\.microsoft\\.rdc\\.macos$",
+                      "^com\\.microsoft\\.VSCode$"
                     ],
                     "type": "frontmost_application_unless"
                   }
@@ -1484,7 +1491,8 @@
                       "^com\\.googlecode\\.iterm2$",
                       "^co\\.zeit\\.hyper$",
                       "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                      "^com\\.microsoft\\.rdc\\.macos$"
+                      "^com\\.microsoft\\.rdc\\.macos$",
+                      "^com\\.microsoft\\.VSCode$"
                     ],
                     "type": "frontmost_application_unless"
                   }
